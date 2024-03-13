@@ -54,6 +54,24 @@ header{
     height: 200px;
 }
 
+.notice{                        /*공지사항*/
+    float: left;                /*컨텐츠에서 왼*/
+    width: 300px;               /*임의*/
+    height: 200px;
+}
+
+.gallery{                       /*갤러리*/
+    float: left;                /*컨텐츠에서 왼*/
+    width: 300px;               /*임의*/
+    height: 200px;
+}
+
+.shortcut{                      /*바로라기*/
+    float: right;               /*컨텐츠에서 오*/
+    width: 200px;               /*임의*/
+    height: 200px;
+}
+
 footer{
     float: right;               /*body에서 오*/
 }

@@ -19,3 +19,35 @@ a{
     text-decoration: none;/*a태그 밑줄없앰*/
     display: block;/*줄바꿈되도록함*/
 }/*필수*/
+
+header{
+    float: left;/*body에서 왼*/
+}
+
+.top{
+    float: left;
+    width: 200px;/*임의*/
+    height: 650px;/*왼쪽의 전체를 차지*/
+}
+
+.imgslide{
+    float: right;/*body에서 오*/
+    width: 800px;
+    height: 350px;
+}
+
+.contents{/*공지사항 갤러리 바로가기*/
+    float: right;/*body에서 오*/
+    width: 800px;
+    height: 200px;
+}
+
+footer{
+    float: right;/*body에서 오*/
+}
+
+.bottom{
+    float: right;/*footer에서 오*/
+    width: 800px;
+    height: 100px;
+}

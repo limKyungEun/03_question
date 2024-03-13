@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+*{
+    margin: 0 auto;/*좌우 바깥 여백을 자동할당시켜서 중앙정렬로 만듦*/
+    padding: 0;/*안쪽여백없앰*/
+    list-style: none;/*목록스타일 없앰*/
+    font-family: "맑은고딕";
+    color: #333;/*컬러가이드 : 기본텍스트 색*/
+}/*필수*/
+
+body{
+    width: 1000px;/*와이어프레임 너비*/
+    height: 650px;/*와이어프레임 b+c+d 높이*/
+    background-color: #fff;/*컬러가이드 : 배경색*/
+    font-size: 20px;
+}/*필수*/
+
+a{
+    text-decoration: none;/*a태그 밑줄없앰*/
+    display: block;/*줄바꿈되도록함*/
+}/*필수*/

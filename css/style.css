@@ -22,6 +22,7 @@ a{
 
 header{
     float: left;                /*body에서 왼*/
+    position: absolute;
 }
 
 .top{
@@ -40,6 +41,31 @@ header{
 
 .menu{
     float: left;                /*.top에서 왼*/
+    top: 100px;
+    left: 10px;
+    position: absolute;
+    text-align: center;
+    z-index: 1;
+}
+
+.navi>li{                       /*.navi = 메인메뉴와 서브메뉴 묶음*/
+    float: left;
+    width: 180px;
+}
+
+.navi>li>a{                      /*메인메뉴 텍스트가 작성되어 있는 곳*/
+    width: 180px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #003d00;
+    color: #fff;
+}
+
+.navi>li>a:hover{               /*메인메뉴 텍스트가 작성되어 있는 곳*/
+    background-color: #a2d1aa;
+    color: #000;
 }
 
 .imgslide{

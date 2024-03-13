@@ -130,6 +130,34 @@ header{
     height: 200px;
 }
 
+.tab{
+    float: left;                /*.notice에서 왼*/
+    width: 300px;
+}
+
+.notice h4{                     /*공지사항 텍스트가 적혀 있는 곳*/
+    float: left;                /*.notice에서 왼*/
+    height: 50px;
+    line-height: 50px;
+}
+
+.notice ul{
+    float: left;                 /*.notice에서 왼*/
+    width: 280px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+}
+
+.notice li span{                /*공지사항 안에 날짜 적혀 있는 곳*/
+    float: right;               /*.notice>ul 에서 오*/
+}
+
+.notice li:hover{
+    font-weight: bold;
+    background-color: #d2ddcd;
+}
+
 .gallery{                       /*갤러리*/
     float: left;                /*컨텐츠에서 왼*/
     width: 300px;               /*임의*/

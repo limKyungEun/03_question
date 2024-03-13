@@ -76,8 +76,26 @@ footer{
     float: right;               /*body에서 오*/
 }
 
-.bottom{
+.bottom{                        /*로고 카피라이트 패밀리사이트*/
     float: right;               /*footer에서 오*/
     width: 800px;
+    height: 100px;
+}
+
+.btlogo{
+    float: left;                /*.bottom에서 왼*/
+    width: 200px;               /*임의*/
+    height: 100px;
+}
+
+.copy{
+    float: left;                /*.bottom에서 왼*/
+    width: 400px;               /*임의*/
+    height: 100px;
+}
+
+.familysite{
+    float: right;               /*.bottom에서 오*/
+    width: 200px;               /*임의*/
     height: 100px;
 }

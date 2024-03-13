@@ -64,7 +64,34 @@ header{
 }
 
 .navi>li>a:hover{               /*메인메뉴 텍스트가 작성되어 있는 곳*/
-    background-color: #a2d1aa;
+    background-color: #7fa886;
+    color: #000;
+}
+
+.submenu{
+    display: none;
+    float: left;
+    width: 180px;
+    height: 100%;
+    left: 180px;                /*메인메뉴에 mouseover할때 서브메뉴가 왼쪽으로 슬라이드 해야 함으로 메인메뉴의 너비만큼 지정*/
+    top: 0;
+    position: absolute;
+    background-color: #d2ddcd;
+    z-index: 1;
+}
+
+.submenu>li>a{                  /*서브메뉴에 텍스트가 작성되어 있는 곳*/
+    width: 180px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #5c7a4e;
+    color: #fff;
+}
+
+.submenu>li>a:hover{
+    background-color: #7fa886;
     color: #000;
 }
 
@@ -73,7 +100,7 @@ header{
     width: 800px;
     height: 350px;
 }
-
+s
 .contents{                      /*공지사항 갤러리 바로가기*/
     float: right;               /*body에서 오*/
     width: 800px;

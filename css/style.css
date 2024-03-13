@@ -164,6 +164,27 @@ header{
     height: 200px;
 }
 
+.gallery h4{
+    float: left;
+    height: 50px;
+    line-height: 50px;
+}
+
+.gallery ul li{
+    float: left;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.gallery img{
+    width: 80px;
+    height: 80px;
+}
+
+.gallery li:hover{
+    opacity: 0.5;
+}
+
 .shortcut{                      /*바로라기*/
     float: right;               /*컨텐츠에서 오*/
     width: 200px;               /*임의*/

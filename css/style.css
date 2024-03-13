@@ -99,8 +99,25 @@ header{
     float: right;               /*body에서 오*/
     width: 800px;
     height: 350px;
+    position: relative;
 }
-s
+
+.imgslide>a{                    /*이미지와 span 이 묶여있는 3개의 a태그*/
+    display: block;
+    position: absolute;         /*이렇게 지정함으로서 3개의 a태그가 한곳에 곂치게 됨*/
+}
+
+.imgslide span{                 /*.imgslide의 후손요소 = 이미지텍스트가 작성되어 있는 곳*/
+    width: 160px;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    left: 40%;
+    top: 45%;
+    position: absolute;
+    background-color: rgba(200, 200, 200, 0.5);
+}
+
 .contents{                      /*공지사항 갤러리 바로가기*/
     float: right;               /*body에서 오*/
     width: 800px;

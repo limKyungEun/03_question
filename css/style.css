@@ -164,14 +164,14 @@ header{
     height: 200px;
 }
 
-.gallery h4{
-    float: left;
+.gallery h4{                    /*갤러리 텍스트가 적혀 있는 곳*/
+    float: left;                /*.gallery에서 왼*/
     height: 50px;
     line-height: 50px;
 }
 
 .gallery ul li{
-    float: left;
+    float: left;                /*.gallery에서 왼*/
     padding: 10px;
     margin-top: 10px;
 }
@@ -189,6 +189,23 @@ header{
     float: right;               /*컨텐츠에서 오*/
     width: 200px;               /*임의*/
     height: 200px;
+}
+
+.shortcut img{
+    float: right;
+    width: 180px;
+    height: 180px;
+    padding: 10px;
+}
+
+.sctext{
+    width: 100px;
+    text-align: center;
+    font-weight: bold;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin-top: 85px;
+    margin-left: 50px;
 }
 
 footer{

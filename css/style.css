@@ -198,7 +198,7 @@ header{
     padding: 10px;
 }
 
-.sctext{
+.sctext{                        /*바로가기 안에 있는 텍스트*/
     width: 100px;
     text-align: center;
     font-weight: bold;

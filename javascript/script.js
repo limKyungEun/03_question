@@ -15,4 +15,11 @@ jQuery(document).ready(function(){
         .end()//이전요소 선택
         .appendTo('.imgslide');//.imgslide를 위에 선택한 a태그의 자식요소로 추가
     },3000);
+
+    $(".notice li:first").click(function(){
+        $("#modal").addClass("active");//함수자체가 클래스를 만드는거니까 앞에 .을 안붙혀도 됨
+    });
+    $(".btn").click(function(){
+        $("#modal").removeClass("active");
+    });
 });
